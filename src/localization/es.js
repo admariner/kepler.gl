@@ -145,6 +145,10 @@ export default {
     sizeScale: 'Medida de escala',
     worldUnitSize: 'Medida de la unidad mundial',
     elevationScale: 'Escala de elevación',
+    enableElevationZoomFactor: 'Usar factor de zoom de elevación',
+    enableElevationZoomFactorDescription:
+      'Ajuste la altura / elevación según el factor de zoom actual',
+    enableHeightZoomFactor: 'Usar factor de zoom de altura',
     heightScale: 'Escala de altura',
     coverageRange: 'Rango de cobertura',
     highPrecisionRendering: 'Representación de alta precisión',
@@ -157,7 +161,8 @@ export default {
     showWireframe: 'Muestra esquemàtico',
     weightIntensity: 'Intensidad de peso',
     zoomScale: 'Escala de zoom',
-    heightRange: 'Rango de alturas'
+    heightRange: 'Rango de alturas',
+    heightMultiplier: 'Multiplicador de altura'
   },
   layerManager: {
     addData: 'Añadir datos',
@@ -407,6 +412,10 @@ export default {
       lng0: 'lng origen ',
       lat1: 'lat destino',
       lng1: 'lng destino'
+    },
+    line: {
+      alt0: 'altura origen',
+      alt1: 'altura destino'
     },
     grid: {
       worldUnitSize: 'Tamaño de la malla (km)'

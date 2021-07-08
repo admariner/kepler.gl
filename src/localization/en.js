@@ -145,6 +145,9 @@ export default {
     sizeScale: 'Size Scale',
     worldUnitSize: 'World Unit Size',
     elevationScale: 'Elevation Scale',
+    enableElevationZoomFactor: 'Use elevation zoom factor',
+    enableElevationZoomFactorDescription: 'Adjust height/elevation based on current zoom factor',
+    enableHeightZoomFactor: 'Use height zoom factor',
     heightScale: 'Height Scale',
     coverageRange: 'Coverage Range',
     highPrecisionRendering: 'High Precision Rendering',
@@ -156,7 +159,8 @@ export default {
     showWireframe: 'Show Wireframe',
     weightIntensity: 'Weight Intensity',
     zoomScale: 'Zoom Scale',
-    heightRange: 'Height Range'
+    heightRange: 'Height Range',
+    heightMultiplier: 'Height Multiplier'
   },
   layerManager: {
     addData: 'Add Data',
@@ -219,13 +223,18 @@ export default {
     exportMap: 'Export Map',
     shareMapURL: 'Share Map URL',
     saveMap: 'Save Map',
-    select: 'select',
-    polygon: 'polygon',
-    rectangle: 'rectangle',
-    hide: 'hide',
-    show: 'show',
+    select: 'Select',
+    polygon: 'Polygon',
+    rectangle: 'Rectangle',
+    hide: 'Hide',
+    show: 'Show',
     ...LOCALES
   },
+  editor: {
+    filterLayer: 'Filter Layers',
+    copyGeometry: 'Copy Geometry'
+  },
+
   modal: {
     title: {
       deleteDataset: 'Delete Dataset',
@@ -411,6 +420,10 @@ export default {
       lng0: 'source lng',
       lat1: 'target lat',
       lng1: 'target lng'
+    },
+    line: {
+      alt0: 'source altitude',
+      alt1: 'target altitude'
     },
     grid: {
       worldUnitSize: 'Grid Size (km)'

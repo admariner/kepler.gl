@@ -143,6 +143,10 @@ export default {
     sizeScale: 'Koon skaala',
     worldUnitSize: 'Yksikkö',
     elevationScale: 'Korottamisen skaala',
+    enableElevationZoomFactor: 'Käytä korkeuden zoomauskerrointa',
+    enableElevationZoomFactorDescription:
+      'Säädä korkeus / korkeus nykyisen zoomauskertoimen perusteella',
+    enableHeightZoomFactor: 'Käytä korkeuden zoomauskerrointa',
     heightScale: 'Korkeuden skaala',
     coverageRange: 'Peittävyyden rajat',
     highPrecisionRendering: 'Tarkka renderöinti',
@@ -154,7 +158,8 @@ export default {
     showWireframe: 'Näytä rautalankamalli',
     weightIntensity: 'Painotuksen intensiteetti',
     zoomScale: 'Zoomausskaala',
-    heightRange: 'Korkeuden rajat'
+    heightRange: 'Korkeuden rajat',
+    heightMultiplier: 'Korkeuskerroin'
   },
   layerManager: {
     addData: 'Lisää aineisto',
@@ -397,6 +402,10 @@ export default {
       lng0: 'lähdön lng',
       lat1: 'kohteen lat',
       lng1: 'kohteen lng'
+    },
+    line: {
+      alt0: 'lähteen korkeus',
+      alt1: 'kohde korkeus'
     },
     grid: {
       worldUnitSize: 'Ruutujen koko (km)'
